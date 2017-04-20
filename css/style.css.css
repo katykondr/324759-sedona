@@ -1,0 +1,28 @@
+body {
+	font-size: 14px;
+	line-height: normal;
+	color: #000000;
+	font-weight: 400;
+	font-family: pt-sans, sans-serif;
+	text-transform: uppercase;
+}
+
+.description h3,
+.features-item-another h3,
+.content-left h3 {
+	font-size: 21px;
+	line-height: normal;
+	color: #000000;
+	font-weight: 700;
+	font-family: pt-sans, sans-serif;
+	text-transform: uppercase;
+}
+
+.features-item h3{
+	font-size: 21px;
+	line-height: normal;
+	color: #ffffff;
+	font-weight: 700;
+	font-family: pt-sans, sans-serif;
+	text-transform: uppercase;
+}
