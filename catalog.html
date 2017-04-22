@@ -7,47 +7,65 @@
 	</head>
 	<body>
 		<header class="main-header">
-			<nav class="main-navigation">
-				<ul>
-					<li>
-						<a href="#">Информация</a>
-					</li>
-					<li>
-						<a href="#">Фото и видео</a>
-					</li>
-					<li>
-						<div class="index-logo">
-							<a href="#"><img src="" width="" height="" alt="Sedona"></a>
-						</div>
-					</li>
-					<li>
-						<a href="#">Карта штата</a>
-					</li>
-					<li>
-						<a href="#">Гостиницы</a>
-					</li>
-				</ul>
-			</nav>
+			<div class="container">
+				<nav class="main-navigation">
+					<ul>
+						<li>
+							<a href="#">Информация</a>
+						</li>
+						<li>
+							<a href="#">Фото и видео</a>
+						</li>
+						<li>
+							<div class="index-logo">
+								<a href="#"><img src="" width="" height="" alt="Sedona"></a>
+							</div>
+						</li>
+						<li>
+							<a href="#">Карта штата</a>
+						</li>
+						<li>
+							<a href="#">Гостиницы</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
 		</header>
-		<main>
+		<main class="container">
 			<div class="options">
 				<div class="options-infrastructure">
 					<p>Инфраструктра:</p>
-					<input type="checkbox" name="swimming-pool" id="swimming-pool" checked>
-					<label for="swimming-pool">Бассейн</label>
-					<input type="checkbox" name="parking" id="parking">
-					<label for="parking">Парковка</label>
-					<input type="checkbox" name="wi-fi" id="wi-fi">
-					<label for="wi-fi">Wi-fi</label>
+					<ul>
+						<li>
+							<input type="checkbox" name="swimming-pool" id="swimming-pool" checked>
+							<label for="swimming-pool">Бассейн</label>
+						</li>
+						<li>
+							<input type="checkbox" name="parking" id="parking">
+							<label for="parking">Парковка</label>
+						</li>
+						<li>
+							<input type="checkbox" name="wi-fi" id="wi-fi">
+							<label for="wi-fi">Wi-fi</label>
+						</li>
+					</ul>
 				</div>
 				<div class="accommodation">
 					<p>Тип жилья:</p>
-					<input type="checkbox" name="hotel" id="hotel" checked>
-					<label for="hotel">Гостиница</label>
-					<input type="checkbox" name="motel" id="motel" checked>
-					<label for="motel">Мотель</label>
-					<input type="checkbox" name="apartment" id="apartment" checked>
-					<label for="apartment">Апартаменты</label>
+					<ul>
+						<li>
+							<input type="checkbox" name="hotel" id="hotel" checked>
+							<label for="hotel">Гостиница</label>
+						</li>
+						<li>
+							<input type="checkbox" name="motel" id="motel" checked>
+							<label for="motel">Мотель</label>
+						</li>
+						<li>
+							<input type="checkbox" name="apartment" id="apartment" checked>
+							<label for="apartment">Апартаменты</label>
+						</li>
+					</ul>
 				</div>
 				<div class="cost">
 					<p>Стоимость в сутки (Р):</p>
@@ -58,11 +76,11 @@
 			<div class="result">
 				<h3>Найдено:3</h3>
 				<p>Сортировка</p>
-				<button class="btn" type="submit">По цене</button>
-				<button class="btn" type="submit">По типу</button>
-				<button class="btn" type="submit">По рейтингу</button>
+				<a class="btn" >По цене</a>
+				<a class="btn" >По типу</a>
+				<a class="btn" >По рейтингу</a>
 			</div>
-			<div class="result-of-selection"
+			<div class="result-of-selection">
 				<div class="content">
 					<div class="content-left">
 						<h3>Amara resort & Spa</h3>
