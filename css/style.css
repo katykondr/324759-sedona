@@ -5,10 +5,13 @@ body {
 	font-weight: 400;
 	font-family: pt-sans, sans-serif;
 	text-transform: uppercase;
+	margin: 0;
+	padding: 0;
+	background-color: #ffffff;
 }
 
-.description h3,
-.features-item-another h3,
+.description h2,
+.features-name-another,
 .content-left h3 {
 	font-size: 21px;
 	line-height: normal;
@@ -18,7 +21,7 @@ body {
 	text-transform: uppercase;
 }
 
-.features-item h3{
+.features-name{
 	font-size: 21px;
 	line-height: normal;
 	color: #ffffff;
@@ -26,3 +29,237 @@ body {
 	font-family: pt-sans, sans-serif;
 	text-transform: uppercase;
 }
+
+
+
+.clearfix::after {
+	content: "";
+	
+	display: table;
+	clear: both;
+}
+
+
+.container {
+	width: 1200px;
+	margin: 0 auto;
+	padding: 0 40px;
+	/* Только для оформления*/
+	background-color: beige;
+}
+
+.main-header {
+	margin-bottom: 0;
+	/* Только для оформления*/
+	min-height: 56px;
+	background-color: red;
+}
+
+
+.main-img {
+	width: 1200px;
+	height: 510px;
+	margin-bottom: 63px;
+	/* Только для оформления*/
+	background-color: brown;
+}
+
+.description {
+	width: 640px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 21px;
+	text-align: center;
+	/* Только для оформления*/
+	min-height: 40px;
+	background-color: orange;
+}
+
+.features {
+	width: 520px;
+	padding: 0 auto;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 51px;
+	/* Только для оформления*/
+	min-height: 13px;
+	background-color: coral;
+	
+}
+
+.features-item-1{
+	float: left;
+	width: 400px;
+	margin-bottom: 60px;
+	/* Только для оформления*/
+	min-height: 256px;
+	background-color: green;
+}	
+
+.
+.features-item-img-1 {
+	float: right;
+	width: 800;
+	height: 256px;
+	margin-bottom: 60px;
+	/* Только для оформления*/
+	background-color: green;
+}	
+
+
+
+.recomendation-item {
+	float: left;
+	width: 390px;
+	margin-bottom: 49px;
+	/* Только для оформления*/
+	min-height: 330px;
+	background-color: purple;
+}	
+
+.features-item-2 {
+	float: right;
+	width: 400px;
+	margin-bottom: 50px;
+	/* Только для оформления*/
+	min-height: 256px;
+	background-color: green;
+}	
+
+
+.features-item-img-2 {
+	float: left;
+	width: 800;
+	height: 256px;
+	margin-bottom: 50px;
+	/* Только для оформления*/
+	background-color: green;
+}	
+
+
+.features-item-another {
+	float: left;
+	width: 400px;
+	margin-bottom: 55px;
+	/* Только для оформления*/
+	min-height: 256px;
+	background-color: purple;
+}	
+
+.index-content {
+	width: 1200px;
+	/* Только для оформления*/
+	background-color: gray;	
+}
+
+.index-content-title {
+	width: 635px;
+	margin-left: auto;
+	margin-right: auto;
+	/* Только для оформления*/
+	height: 147px;
+	background-color: blue;	
+}
+
+.index-content-form {
+	width: 568px;
+	height: 482px;
+	margin-left: auto;
+	margin-right: auto;
+	/* Только для оформления*/
+	background-color: orange;	
+}
+
+.main-footer {
+	margin-top: 30px;
+	padding-top: 36px;
+	padding-bottom: 36px;
+	/* Только для оформления*/
+	background-color: crimson;
+}
+
+.footer-tag {
+	float: left;
+	width: 312px;
+	margin-right: 88px;
+	/* Только для оформления*/
+	min-height: 48px;
+	background-color: brown;	
+}
+
+.footer-social {
+	float: left;
+	width: 400px;
+	/* Только для оформления*/
+	min-height: 48px;
+	background-color: brown;
+}
+
+.footer-copyright {
+	float: right;
+	width: 312px;
+	/* Только для оформления*/
+	min-height: 48px;
+	background-color: brown;
+}
+
+.options {
+	margin-bottom: 28px; 
+	/* Только для оформления*/
+	background-color: crimson;	
+}
+
+.options-infrastructure {
+	float: left;
+	width: 280px;
+	margin-right: 20px;
+	/* Только для оформления*/
+	min-height: 220px;
+	background-color: orange;
+}
+
+.options-accommodation {
+	float: left;
+	width: 280px;
+	/* Только для оформления*/
+	min-height: 220px;
+	background-color: orange;
+}
+
+.cost {
+	float: right;
+	width: 460px;
+	/* Только для оформления*/
+	min-height: 220px;
+	background-color: orange;
+}
+
+.result {
+	width: 1056px;
+	margin-left: 73px;
+	margin-right: 73px;
+	margin-bottom: 30px;
+	/* Только для оформления*/
+	min-height: 30px;
+	background-color: blue;
+}
+
+
+.content-left {
+	float: left;
+	width: 528px;
+	margin-left: 73px;
+	/* Только для оформления*/
+	min-height: 151px;
+	background-color: gray;	
+}
+
+	.content-right {
+	float: right;
+	width: 241px;
+	margin-right: 73px;
+	/* Только для оформления*/
+	min-height: 151px;
+	background-color: gray;	
+}
+	
