@@ -31,7 +31,6 @@ body {
 }
 
 
-
 .clearfix::after {
 	content: "";
 	
@@ -87,35 +86,42 @@ body {
 	
 }
 
-.features-item-1{
+.features-item {
+	width: 1200px;
+	min-height: 256px;
+}
+
+
+.features-item-1 {
 	float: left;
 	width: 400px;
-	margin-bottom: 60px;
 	/* Только для оформления*/
 	min-height: 256px;
 	background-color: green;
 }	
 
-.
+
 .features-item-img-1 {
 	float: right;
-	width: 800;
+	width: 800px;
 	height: 256px;
-	margin-bottom: 60px;
 	/* Только для оформления*/
 	background-color: green;
 }	
 
-
+.recomendation {
+	display: flex;
+	width: 1200px;
+	justify-content: space-between;
+	margin-bottom: 0px;
+}
 
 .recomendation-item {
-	float: left;
 	width: 390px;
-	margin-bottom: 49px;
-	/* Только для оформления*/
 	min-height: 330px;
 	background-color: purple;
 }	
+
 
 .features-item-2 {
 	float: right;
@@ -139,12 +145,17 @@ body {
 
 .features-item-another {
 	float: left;
-	width: 400px;
+	width: 390px;
 	margin-bottom: 55px;
+	margin-right: 15px;
 	/* Только для оформления*/
 	min-height: 256px;
 	background-color: purple;
 }	
+
+.features-item-another:last-child {
+  margin-right: 0;
+}
 
 .index-content {
 	width: 1200px;
@@ -171,17 +182,18 @@ body {
 }
 
 .main-footer {
+	width: 1200px;
 	margin-top: 30px;
-	padding-top: 36px;
-	padding-bottom: 36px;
+
 	/* Только для оформления*/
 	background-color: crimson;
 }
 
 .footer-tag {
 	float: left;
-	width: 312px;
-	margin-right: 88px;
+	width: 240px;
+	margin-left: 73px;
+	margin-right: 198px;
 	/* Только для оформления*/
 	min-height: 48px;
 	background-color: brown;	
@@ -189,7 +201,7 @@ body {
 
 .footer-social {
 	float: left;
-	width: 400px;
+	width: 178px;
 	/* Только для оформления*/
 	min-height: 48px;
 	background-color: brown;
@@ -197,7 +209,8 @@ body {
 
 .footer-copyright {
 	float: right;
-	width: 312px;
+	width: 240px;
+	margin-right: 73px;
 	/* Только для оформления*/
 	min-height: 48px;
 	background-color: brown;
@@ -254,7 +267,7 @@ body {
 	background-color: gray;	
 }
 
-	.content-right {
+.content-right {
 	float: right;
 	width: 241px;
 	margin-right: 73px;
