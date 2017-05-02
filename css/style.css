@@ -32,6 +32,7 @@ body {
 	width: 1200px;
 	margin: 0 auto;
 	padding: 0;
+	position: relative;
 }
 
 .main-header {
@@ -116,9 +117,9 @@ body {
 
 .index-logo {
 	position: absolute;
-	top: 0;
+	z-index: 1;
 	left: 50%;
-	margin-left: -69px;
+	transform: translateX(-50%);
 }
 
 
@@ -300,6 +301,14 @@ body {
 
 }
 
+.question {
+	text-align: center;
+	font-size: 30px;
+	line-height: 30px;
+	font-weight: 700;
+	display: block;
+	margin-top: 50px;
+}
 
 .index-content p {
 	text-align: center;
@@ -311,14 +320,7 @@ body {
 	margin-top: 28px;
 }
 
-.question {
-	text-align: center;
-	font-size: 30px;
-	line-height: 30px;
-	font-weight: 700;
-	display: block;
-	margin-top: 50px;
-}
+
 
 .index-content-form-title {
 	display: block;
@@ -334,16 +336,22 @@ body {
 	padding-top: 32px;
 }
 
-.index-content-form {
+
+
+
+
+.search-hotel-form {
 	position: absolute;
 	width: 568px;
 	height: 482px;
-	margin: 0 auto;
-	margin-left: 316px;
-	margin-top: -86px;
+	margin-left: auto;
+	margin-right: auto;
 	background-color: #ffffff;	
+	box-shadow: 0 7px 15px 0 rgba(0,0,0,0.2);
+	margin-top: -86px;
 }
 
+ 
 .map {
 	width: 1200px;
 	height: 594px;
