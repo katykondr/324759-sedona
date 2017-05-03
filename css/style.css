@@ -344,7 +344,7 @@ body {
 	position: absolute;
 	width: 568px;
 	height: 482px;
-	margin-left: auto;
+	margin-left: 317px;
 	margin-right: auto;
 	background-color: #ffffff;	
 	box-shadow: 0 7px 15px 0 rgba(0,0,0,0.2);
@@ -353,43 +353,133 @@ body {
 
  
 .map {
-	width: 1200px;
-	height: 594px;
-	margin: 0;
+	position: relative;
+	z-index: -1;
 }
 
+
 .main-footer {
-	height: 90px;
-	/* Только для оформления*/
-	background-color: crimson;
+	padding-top: 38px;
+	padding-bottom: 36px;
+	background-color: rgba(255,255,255,0.9);
 }
 
 .footer-tag {
+	font-size: 21px;
+	line-height: 26px;
+	font-weight: 700;
 	float: left;
 	width: 240px;
 	margin-left: 73px;
-	margin-right: 198px;
-	/* Только для оформления*/
-	min-height: 48px;
-	background-color: brown;	
+	text-align: center;
 }
 
 .footer-social {
 	float: left;
-	width: 178px;
-	/* Только для оформления*/
-	min-height: 48px;
-	background-color: brown;
+	width: 180px;
+	margin-left: 198px;
+	text-align: center;
 }
+
+
+.social-btn {
+	display: inline-block;
+	width: 46px;
+	height: 48px;
+	margin: 0 2px;
+	font-size: 0;
+	vertical-align: top;
+	text-decoration: none;
+	background-color: #81b3d2;
+}
+
+.social-btn:hover {
+  background-color: #ffffff;
+}
+
+.social-btn-tw {
+	background: #81b3d2 url("../img/twitter.png") no-repeat center;
+	background-position: 50% 50%;
+}
+
+.social-btn-fb {
+	background: #81b3d2 url("../img/facebook.png") no-repeat center;
+	background-position: 50% 50%;
+}
+
+.social-btn-yt {
+	background: #81b3d2 url("../img/youtube.png") no-repeat center;
+	background-position: 50% 50%;
+}
+
+.social-btn-tw:hover  {
+	background: #669ec0 url("../img/twitter.png") no-repeat center;
+	background-position: 50% 50%;
+}
+
+.social-btn-fb:hover  {
+	background: #669ec0 url("../img/facebook.png") no-repeat center;
+	background-position: 50% 50%;
+}
+
+.social-btn-yt:hover {
+	background: #669ec0 url("../img/youtube.png") no-repeat center;
+	background-position: 50% 50%;
+}
+
+.social-btn-tw:active  {
+	background: #5496bd url("../img/twitter-active.png") no-repeat center;
+	background-position: 50% 50%;
+}
+
+.social-btn-fb:active {
+	background: #5496bd url("../img/facebook-active.png") no-repeat center;
+	background-position: 50% 50%;
+}
+
+.social-btn-yt:active {
+	background-color: #5496bd url("../img/youtube-active.png") no-repeat center;
+	background-position: 50% 50%;
+}
+
 
 .footer-copyright {
 	float: right;
 	width: 240px;
 	margin-right: 73px;
-	/* Только для оформления*/
-	min-height: 48px;
-	background-color: brown;
+	display: flex;
+	align-items: center;
 }
+
+.footer-coopyright p {
+	font-size: 14px;
+	line-height: 26px;
+	font-weight: 400;
+	margin: 0;
+	text-align: left; 
+}
+
+.footer-copyright .btn {
+	margin-left: 8px;
+	font-size: 0;
+	text-decoration: none;
+	display: block;
+	width: 112px;
+	height: 38px;
+	background: #ffffff url("../img/logo-html.png") no-repeat center;
+	background-position: 0px 0px;
+}
+
+.footer-copyright .btn:hover {
+	background: #ffffff url("../img/logo-html-hover.png") no-repeat center;
+	background-position: 0px 0px;
+}
+
+.footer-copyright .btn:active {
+	background: #ffffff url("../img/logo-html-active.png") no-repeat center;
+	background-position: 0px 0px;
+}
+
 
 .options {
 	margin-bottom: 28px; 
