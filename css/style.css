@@ -54,6 +54,8 @@ body {
 	font-size: 0;
 }
 
+
+
 .main-navigation li {
 	display: inline-block;
 	font-size: 14px;
@@ -61,42 +63,22 @@ body {
 	vertical-align: top;
 }
 
+.main-navigation li:nth-child(3) {
+  text-align: right;
+  margin-left: 96px;
+}
+.main-navigation li:nth-child(4) {
+  text-align: right;
+}
+
 .main-navigation a {
 	display: block;
 	padding-top: 15px;
 	padding-bottom: 15px;
+	width: 240px;
 	color: #000000;
 	text-decoration: none;
 	font-weight: bold;
-
-
-}
-
-.main-navigation li:first-child {
-	
-	padding-left: 0px;
-	padding-right: 73px;
-}
-
-.main-navigation li:nth-child(2) {
-	
-	padding-left: 73px;
-	padding-right: 312px;
-	
-}
-
-.main-navigation li:nth-child(3) {
-	
-	padding-left: 76px;
-	padding-right: 75px;
-	
-}
-
-.main-navigation li:last-child {
-	
-	padding-left: 89px;
-	padding-right: 0px;
-	
 }
 
 .main-navigation a:hover {
@@ -655,63 +637,90 @@ body {
 
 
 
+
+
 .options {
 	margin-bottom: 28px; 
-	/* Только для оформления*/
-	background-color: crimson;	
+	width: 1200px;
+	min-height: 217px;
+	background: #607688 url("../img/catalog-background.jpg") no-repeat;
+	background-position: 0 0;
+	
+	color: #ffffff;
+	text-transform: uppercase;
 }
 
 .options-infrastructure {
 	float: left;
-	width: 280px;
-	margin-right: 20px;
-	/* Только для оформления*/
-	min-height: 220px;
-	background-color: orange;
+	width: 240px;
+	margin-right: 0;
+	margin-left: 71px;
+	padding-left: 0;
+
 }
 
 .options-accommodation {
 	float: left;
-	width: 280px;
-	/* Только для оформления*/
-	min-height: 220px;
-	background-color: orange;
+	width: 240px;
+	padding-left: 16px;
 }
 
-.result {
-	width: 1056px;
-	margin-left: 73px;
-	margin-right: 73px;
-	margin-bottom: 30px;
-	/* Только для оформления*/
-	min-height: 30px;
-	background-color: blue;
+.option-title {
+	font-size: 16px;
+	line-height: 21px;
+	font-weight: 700;
+	padding-top: 15px;
 }
 
 
-.content-left {
-	float: left;
-	width: 528px;
-	margin-left: 73px;
-	/* Только для оформления*/
-	min-height: 151px;
-	background-color: gray;	
+.options-infrastructure ul,
+.options-accommodation ul  {
+	margin: 0;
+	padding: 0;
+	
+	list-style: none;
+	font-size: 0;
 }
 
-.content-right {
-	float: right;
-	width: 241px;
-	margin-right: 73px;
-	/* Только для оформления*/
-	min-height: 151px;
-	background-color: gray;	
+.options-infrastructure li,
+.options-accommodation li {
+	font-size: 14px;
+	line-height: 21px;	
+	font-weight: 400;
 }
+
+
+.options-infrastructure label {
+	position: relative;
+	display: block;
+	width: 240px;
+	height: 46px;
+	color: #ffffff;
+	padding-left: 41px;
+}
+
+.options input[type="checkbox"] {
+  display: none;
+}
+
+
+.options-accommodation label {
+	position: relative;
+	display: block;
+	width: 240px;
+	height: 46px;
+	color: #ffffff;
+	padding-left: 60px;
+}
+
 
 
 .filter-range {
+	float: right;
 	width: 330px;
-	color: #ffffff;
-	text-transform: uppercase;
+	
+	margin-right: 73px;
+	padding-top: 30px;
 }
 
 .filter-range-title {
@@ -754,13 +763,16 @@ body {
 	line-height: 38px;
 	vertical-align: top;
 
-  cursor: pointer;
+	cursor: pointer;
 }
 
 .price-controls .min-price,
 .price-controls .max-price {
 	width: 90px;
 	padding-left: 65px;
+	font-size: 16px;
+	line-height: 21px;
+	padding-top: 5px;
 }
 
 .price-controls input {
@@ -840,3 +852,38 @@ body {
 
 	background: #ffffff;
 }
+
+
+
+
+
+
+.result {
+	width: 1056px;
+	margin-left: 73px;
+	margin-right: 73px;
+	margin-bottom: 30px;
+	/* Только для оформления*/
+	min-height: 30px;
+	background-color: blue;
+}
+
+
+.content-left {
+	float: left;
+	width: 528px;
+	margin-left: 73px;
+	/* Только для оформления*/
+	min-height: 151px;
+	background-color: gray;	
+}
+
+.content-right {
+	float: right;
+	width: 241px;
+	margin-right: 73px;
+	/* Только для оформления*/
+	min-height: 151px;
+	background-color: gray;	
+}
+
