@@ -64,11 +64,11 @@ body {
 }
 
 .main-navigation li:nth-child(3) {
-  text-align: right;
-  margin-left: 92px;
+	text-align: right;
+	margin-left: 92px;
 }
 .main-navigation li:nth-child(4) {
-  text-align: right;
+	text-align: right;
 }
 
 .main-navigation a {
@@ -78,7 +78,7 @@ body {
 	width: 240px;
 	color: #000000;
 	text-decoration: none;
-	font-weight: bold;
+	font-weight: 700;
 }
 
 .main-navigation a:hover {
@@ -175,7 +175,7 @@ body {
 	width: 400px;
 	padding-left: 50px;
 	padding-right: 50px;
-	padding-top: 144px;
+	padding-top: 137px;
 	text-align: center;
 }	
 
@@ -259,6 +259,7 @@ body {
 }
 
 .index-content {
+	position: relative;
 	width: 1200px;
 	margin: 0;
 
@@ -270,7 +271,7 @@ body {
 	line-height: 30px;
 	font-weight: 700;
 	display: block;
-	padding-bottom: 24px;
+	padding-bottom: 22px;
 }
 
 .index-content p {
@@ -280,17 +281,19 @@ body {
 	line-height: 24px;
 	font-weight: 400;
 	height: 137px;
-	padding-bottom: 48px;
+	padding-bottom: 46px;
 }
 
 
 
 .search-hotel-form {
+	position: absolute;
 	width: 568px;
-	margin-left: auto;
-	margin-right: auto;
-	padding-bottom: 55px;	
+	left: 317px;
+	top: 148px;
 	box-shadow: 0 7px 15px 0 rgba(0,0,0,0.2);
+	z-index: 1;
+	background-color: #ffffff;
 	
 }
 
@@ -388,8 +391,7 @@ body {
 	background-position: 0px 0px;
 	
 }
-	
-		
+			
 .bottom-line {
 	display: flex;
 	margin-left: 54px;
@@ -418,7 +420,7 @@ body {
 	padding-bottom: 6px;
 }
 
- .person {
+.person {
 	display: flex;
 	align-items: center;
 }
@@ -429,7 +431,7 @@ body {
 }
 	
 .person-line span {
-  position: absolute;
+	position: absolute;
 }
 
 .plus {
@@ -439,6 +441,7 @@ body {
 	right: -38px;
 	background: #f2f2f2 url("../img/plus.png") no-repeat center;
 	background-position: 0px 0px;
+	cursor: pointer;
 }
 
 .minus {
@@ -448,56 +451,61 @@ body {
 	right: 38px;
 	background: #f2f2f2 url("../img/minus.png") no-repeat center;
 	background-position: 0px 0px;
+	cursor: pointer;
 }
 	
 .children input {
-  margin-left: 46px;
+	margin-left: 46px;
 }
 
 .adults input {
-  margin-left: 55px;
+	margin-left: 55px;
 }
 
 .children {
-  margin-left: 80px;
+	margin-left: 80px;
 }	
 	
 .plus:hover {
-  background: #f2f2f2 url("../img/plus-hover.png") no-repeat center;
-  background-position: 13px 14px;
+	background: #f2f2f2 url("../img/plus-hover.png") no-repeat center;
+	background-position: 13px 14px;
+
 }
 .plus:active {
-  background: #f2f2f2 url("../img/plus-active.png") no-repeat center;
-  background-position: 13px 14px;
+	background: #f2f2f2 url("../img/plus-active.png") no-repeat center;
+	background-position: 13px 14px;
 }
 .minus:hover {
-  background: #f2f2f2 url("../img/minus-hover.png") no-repeat center;
-  background-position: 13px 18px;
+	background: #f2f2f2 url("../img/minus-hover.png") no-repeat center;
+	background-position: 13px 18px;
+ 
 }
 .minus:active {
-  background: #f2f2f2 url("../img/minus-active.png") no-repeat center;
-  background-position: 13px 18px;
+	background: #f2f2f2 url("../img/minus-active.png") no-repeat center;
+	background-position: 13px 18px;
 }	
 	
 .search-hotel-btn {
-  display: block;
-  width: 74px;
-  margin-left: 57px;
-  text-decoration: none;
-  background-color: #81b3d2;
-  color: #fff;
-  padding: 16px 192px;
-  font-size: 21px;
-  line-height: 26px;
-  margin-top: 54px;
-  font-weight: bold;
+	display: block;
+	width: 458px;
+	margin-left: 57px;
+	text-decoration: none;
+	background-color: #81b3d2;
+	color: #fff;
+	padding: 16px 192px;
+	font-size: 21px;
+	line-height: 26px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	font-weight: 700;
+	text-transform: uppercase;
 }
 .search-hotel-btn:hover {
-  background-color: #669ec0;
+	background-color: #669ec0;
 }
 .search-hotel-btn:active {
-  background-color: #5496bd;
-  color: #94b9d2;
+	background-color: #5496bd;
+	color: #94b9d2;
 }	
 	
 	
@@ -508,6 +516,11 @@ body {
 	z-index: -1;
 }
 
+.map img {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
 
 
 
@@ -586,6 +599,7 @@ label .checkbox-point {
 	height: 22px;
 	background: url("../img/point.png") no-repeat center;
 	background-position: 0px 0px;
+	cursor: pointer;
 }
 
 .box input:checked + .checkbox-point {
@@ -987,7 +1001,7 @@ label .checkbox-point {
 .main-footer {
 
 	padding-bottom: 20px;
-	background-color: rgba(255,255,255,0.9);
+	background-color: #ffffff;
 	opacity: 0.9;
 }
 
