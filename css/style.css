@@ -136,6 +136,7 @@ body {
 	color: #ffffff;
 	padding-top: 25px;
 	padding-bottom: 46px;
+
 }
 
 .features-item-content p {
@@ -168,6 +169,7 @@ body {
 	justify-content: space-between;
 	margin-bottom: 0px;
 	min-height: 330px;
+
 }
 
 .recomendation-item {
@@ -271,7 +273,7 @@ body {
 	line-height: 30px;
 	font-weight: 700;
 	display: block;
-	padding-bottom: 22px;
+	padding-bottom: 30px;
 }
 
 .index-content p {
@@ -289,11 +291,12 @@ body {
 .search-hotel-form {
 	position: absolute;
 	width: 568px;
-	left: 317px;
-	top: 148px;
+	left: 316px;
+	top: 157px;
 	box-shadow: 0 7px 15px 0 rgba(0,0,0,0.2);
 	z-index: 1;
 	background-color: #ffffff;
+	min-height: 480px;
 	
 }
 
@@ -327,8 +330,8 @@ body {
 	background-color: #f2f2f2;
 	border: 0px;
 	border: 2px solid transparent;
-	padding-top: 7px;
-	padding-bottom: 7px;
+	padding-top: 6px;
+	padding-bottom: 6px;
 	padding-left: 11px;
 	margin-right: 55px;
 	width: 330px;
@@ -363,7 +366,7 @@ body {
 }
 
 .check-out {
-	margin-top: 30px;
+	margin-top: 25px;
 }
 	
 .date-line {
@@ -395,7 +398,7 @@ body {
 .bottom-line {
 	display: flex;
 	margin-left: 54px;
-	margin-top: 30px;
+	margin-top: 32px;
 	align-items: center;
 }
 
@@ -491,7 +494,7 @@ body {
 	margin-left: 57px;
 	text-decoration: none;
 	background-color: #81b3d2;
-	color: #fff;
+	color: #ffffff;
 	padding: 16px 192px;
 	font-size: 21px;
 	line-height: 26px;
@@ -499,6 +502,7 @@ body {
 	margin-bottom: 50px;
 	font-weight: 700;
 	text-transform: uppercase;
+	font-family: "PT Sans", "Arial", sans-serif;
 }
 .search-hotel-btn:hover {
 	background-color: #669ec0;
@@ -515,14 +519,6 @@ body {
 	height: 594px;
 	z-index: -1;
 }
-
-.map img {
-	position: absolute;
-	top: 0;
-	left: 0;
-}
-
-
 
 .options {
 	margin-bottom: 18px; 
@@ -632,7 +628,7 @@ label .checkbox-point {
 
 .filter-range {
 	float: right;
-	width: 330px;
+	width: 320px;
 	margin-right: 73px;
 	padding-top: 26px;
 }
@@ -646,7 +642,7 @@ label .checkbox-point {
 
 .price-controls {
 	position: relative;
-	height: 36px;
+	height: 35px;
 	margin-bottom: 20px;
 	font-size: 0;
  	border: 2px solid #ffffff;
@@ -733,7 +729,7 @@ label .checkbox-point {
 .btn-transparent {
 	display: block;
 	margin: 0 auto;
-	padding: 3px 30px;
+	padding: 4px 32px;
 	font-size: 14px;
 	line-height: 20px;
 	color: #ffffff;
@@ -902,7 +898,7 @@ label .checkbox-point {
 	color: #000000;
 	font-weight: 700;
 	text-decoration: none;
-	padding-bottom: 10px;
+	padding-bottom: 7px;
 }
 	
 .hotel-name:hover {
@@ -944,6 +940,7 @@ label .checkbox-point {
 	font-weight: 700;
 	color: #ffffff;
 	padding: 3px 16px;
+	margin-top: 6px;
 }
 
 .btn-detail {
@@ -960,6 +957,7 @@ label .checkbox-point {
 }
 
 .btn-book {
+	margin-left: 5px;
 	background-color: #766357;
 }
 
@@ -984,7 +982,7 @@ label .checkbox-point {
 
 .content-right img {
 	padding-right: 0px;
-	padding-bottom: 47px;
+	padding-bottom: 45px;
 }
 
 .content-right span {
@@ -999,10 +997,14 @@ label .checkbox-point {
 
 
 .main-footer {
+	margin-top: -120px;
+	padding-bottom: 31px;
+	background-color: rgba(255, 255, 255, 0.9);
+}
 
-	padding-bottom: 20px;
-	background-color: #ffffff;
-	opacity: 0.9;
+.main-footer-catalog {
+	padding-bottom: 30px;
+	padding-top: 4px;
 }
 
 .footer-tag {
@@ -1014,14 +1016,14 @@ label .checkbox-point {
 	width: 240px;
 	margin-left: 80px;
 	text-align: center;
-	padding-top: 28px;
+	padding-top: 20px;
 }
 
 .footer-social {
-	padding-top: 36px;
+	padding-top: 34px;
 	float: left;
 	width: 180px;
-	margin-left: 191px;
+	margin-left: 189px;
 	text-align: center;
 }
 
@@ -1030,7 +1032,7 @@ label .checkbox-point {
 	display: inline-block;
 	width: 46px;
 	height: 48px;
-	margin: 0 2px;
+	margin: 0 1px;
 	font-size: 0;
 	vertical-align: top;
 	text-decoration: none;
@@ -1093,7 +1095,7 @@ label .checkbox-point {
 	margin-right: 60px;
 	display: flex;
 	align-items: center;
-	padding-top: 36px;
+	padding-top: 32px;
 }
 
 .footer-coopyright p {
