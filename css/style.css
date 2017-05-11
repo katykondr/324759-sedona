@@ -503,6 +503,7 @@ body {
 	font-weight: 700;
 	text-transform: uppercase;
 	font-family: "PT Sans", "Arial", sans-serif;
+	cursor: pointer;
 }
 .search-hotel-btn:hover {
 	background-color: #669ec0;
