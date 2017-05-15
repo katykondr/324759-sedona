@@ -49,18 +49,19 @@ body {
 .main-navigation ul {
 	margin: 0;
 	padding: 0;
-	
 	list-style: none;
 	font-size: 0;
 }
-
-
 
 .main-navigation li {
 	display: inline-block;
 	font-size: 14px;
 	line-height: 26px;	
+	font-weight: 700;
 	vertical-align: top;
+	width: 240px;
+	padding-top: 15px;
+	padding-bottom: 15px;
 }
 
 .main-navigation li:nth-child(3) {
@@ -73,13 +74,9 @@ body {
 }
 
 .main-navigation a {
-	display: block;
-	padding-top: 15px;
-	padding-bottom: 15px;
-	width: 240px;
 	color: #000000;
 	text-decoration: none;
-	font-weight: 700;
+
 }
 
 .main-navigation a:hover {
@@ -92,8 +89,15 @@ body {
 }
 
 .main-navigation .active-hotels {
-	color: #000000;
-	opacity: 0.3;
+	color: #766357;
+}
+
+.main-navigation .active-hotels:hover {
+	color: #766357;
+}
+
+.main-navigation .active-hotels:active {
+	color: #766357;
 }
 
 .index-logo {
@@ -311,7 +315,7 @@ body {
 	line-height: 24px;
 	font-weight: 400;
 	margin-top: 26px;
-	margin-bottom: 47px;
+	margin-bottom: 48px;
 }
 
 
@@ -323,7 +327,7 @@ body {
 	margin-left: auto;
 	margin-right: auto;
 	background-color: #ffffff;
-	min-height: 396px;
+	min-height: 390px;
 	z-index: 2;
 	left: 316px;
 	bottom: 203px;
@@ -339,8 +343,8 @@ body {
 	line-height: 26px;
 	font-weight: 700;
 	color: #ffffff;
-	padding-top: 28px;
-	padding-bottom: 30px;
+	padding-top: 30px;
+	padding-bottom: 27px;
 	margin: 0 auto;
 	min-height: 30px;
 
@@ -497,7 +501,7 @@ body {
 }
 
 .adults input {
-	margin-left: 55px;
+	margin-left: 54px;
 }
 
 .children {
@@ -1157,7 +1161,7 @@ label .checkbox-point {
 	margin-right: 60px;
 	display: flex;
 	align-items: center;
-	padding-top: 34px;
+	padding-top: 30px;
 }
 
 
